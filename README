@@ -1,0 +1,13 @@
+#i2c
+	write_i2c_arg.c : write i2c_rdwr_arg.c ap's data
+	i2c_rdwr_arg.c  : i2c test ap
+	adv7179         : i2c_rdwr_arg's data
+
+#nand
+	nand test ap
+
+#rtc
+	rtc test ap
+
+#wdt
+	wdt test ap

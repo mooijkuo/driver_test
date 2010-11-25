@@ -1,0 +1,5 @@
+mtd-utils
+
+uncompressed  mtd-utils-1.0.0.tar.gz
+enter the directory
+make flash_eraseall mtd_debug nandwrite
